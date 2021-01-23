@@ -1,0 +1,9 @@
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.deps.json
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.Core\obj\Debug\netcoreapp3.1\BitirmeÖdevi.Core.pdb

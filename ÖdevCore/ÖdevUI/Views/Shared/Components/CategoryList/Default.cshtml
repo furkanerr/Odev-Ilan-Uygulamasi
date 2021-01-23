@@ -1,0 +1,94 @@
+﻿@model BitirmeProjesiUI.Models.CategoryListViewModel
+@*<div class="list-group">
+
+        @foreach (var kategoriler in Model.Categories)
+        {
+            <a href="#"class="list-group-item">@kategoriler.CategoryName </a>
+        }
+    <
+
+    </div>*@
+
+<head>
+    <style>
+        body {
+            background-color: #fff;
+            font-size: 14px;
+        }
+
+        .animatedbounceInDown {
+            position: relative;
+            margin: 0px;
+            width: 200px;
+        }
+
+            .animatedbounceInDown ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+                .animatedbounceInDown ul li a {
+                    display: block;
+                    background: #ebebeb;
+                    padding: 10px 15px;
+                    color: #333;
+                    text-decoration: none;
+                    -webkit-transition: 0.2s linear;
+                    -moz-transition: 0.2s linear;
+                    -o-transition: 0.2s linear;
+                    transition: 0.2s linear;
+                }
+
+                    .animatedbounceInDown ul li a:hover {
+                        background: #f8f8f8;
+                        color: #515151;
+                    }
+
+                    .animatedbounceInDown ul li a .fa {
+                        width: 16px;
+                        text-align: center;
+                        margin-right: 5px;
+                        float: right;
+                    }
+
+                .animatedbounceInDown ul ul {
+                    background-color: #ebebeb;
+                }
+
+                .animatedbounceInDown ul li ul li a {
+                    background: #f8f8f8;
+                    border-left: 4px solid transparent;
+                    padding: 10px 20px;
+                }
+
+                    .animatedbounceInDown ul li ul li a:hover {
+                        background: #ebebeb;
+                        border-left: 4px solid #3498db;
+                    }
+    </style>
+
+   
+
+</head>
+
+
+
+@foreach (var kategoriler in Model.Categories)
+{
+    <nav class='animatedbounceInDown'>
+     <ul>
+         <li class='sub-menu'><a href='#'>@kategoriler.CategoryName<div class='fa fa-caret-down right'></div></a>
+                              <ul>
+                                  @foreach (var Types in Model.PetTypes)
+                                  {
+                                      <li><a href="/Ilan/Ilanlar?category=@kategoriler.Id&petTypes=@Types.Id">@Types.Type  </a></li>
+
+                                  }
+                              </ul>                         
+         </li>
+     </ul>
+ </nav>
+
+}
+

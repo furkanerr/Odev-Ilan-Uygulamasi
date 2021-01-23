@@ -1,0 +1,99 @@
+﻿
+
+@using Microsoft.AspNetCore.Http
+@model BitirmeProjesiUI.Models.AdsAddViewModel
+
+@{
+    ViewData["Title"] = "Anasayfa";
+
+    Layout = "~/Views/Shared/_AnasayfaLayout1.cshtml";
+}
+<style>
+    body {
+        background-color: #F1F0FF;
+    }
+</style>
+<form asp-controller="Ilan" asp-action="IlanEkle" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+
+
+        <label asp-for="Ads.CategoryId"></label>
+        <select asp-for="Ads.CategoryId" class="form-control" asp-items="@(new SelectList(Model.AdsCategory, "Id", "CategoryName"))"></select>
+        <span asp-validation-for="Ads.CategoryId"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ads.PetTypeId"></label>
+        <select asp-for="Ads.PetTypeId" class="form-control" asp-items="@(new SelectList(Model.PetType,"Id","Type"))"></select>
+        <span asp-validation-for="Ads.PetTypeId"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ads.PetBreedId"></label>
+        <select asp-for="Ads.PetBreedId" class="form-control" asp-items="@(new SelectList(Model.PetBreed,"Id","Breed"))"></select>
+        <span asp-validation-for="Ads.PetBreedId"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ads.GenderId"></label>
+        <select asp-for="Ads.GenderId" class="form-control" asp-items="@(new SelectList(Model.Gender,"Id","Sex"))"></select>
+        <span asp-validation-for="Ads.GenderId"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ads.PetAge"></label>
+        <input asp-for="Ads.PetAge" class="form-control" placeholder="İlan Türü" />
+        <span asp-validation-for="Ads.PetAge"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ads.CityId"></label>
+        <select asp-for="Ads.CityId" class="form-control" asp-items="@(new SelectList(Model.City,"Id","CityName"))"></select>
+        <span asp-validation-for="Ads.CityId"></span>
+
+    </div>
+
+
+
+    <div class="form-group">
+        <label asp-for="Ads.AdText"></label>
+        <input asp-for="Ads.AdText" class="form-control" placeholder="İlan Detayları" />
+        <span asp-validation-for="Ads.AdText"></span>
+    </div>
+
+    @*<div class="form-group">
+        <label asp-for="Ads.District"></label>
+        <input asp-for="Ads.District" class="form-control" placeholder="ilçe" />
+        <span asp-validation-for="Ads.District"></span>
+    </div>*@
+
+    <div class="form-group">
+        <label asp-for="Ads.CoverPhoto">Resim</label>
+        <div class="custom-file">
+            <input asp-for="Ads.CoverPhoto" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Resim Seçin</label>
+        </div>
+        <span asp-validation-for="Ads.CoverPhoto"></span>
+    </div>
+    
+    @*<div class="form-group">
+        <label asp-for="Ads.GalleryFiles"></label>
+        <div class="custom-file">
+            <input asp-for="Ads.GalleryFiles" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+        </div>
+        <span asp-validation-for="Ads.GalleryFiles"></span>
+    </div>*@
+
+    @*<div class="form-group">
+        <label asp-for="Ads.UsersId"></label>
+        <input type="hidden" asp-for="Ads.UsersId" class="form-control" placeholder="UserId" value="@Model.User.Id" />
+        <span asp-validation-for="Ads.UsersId"></span>
+    </div>*@
+
+
+    <input type="submit" value="IlanEkle" class="btn btn-success" />
+
+</form>

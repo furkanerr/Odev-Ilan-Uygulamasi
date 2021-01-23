@@ -1,0 +1,36 @@
+﻿@model AdsListViewModel
+@{
+    ViewData["Title"] = "UserIlanlariniGetir";
+    Layout = "~/Views/Shared/_AnasayfaLayout1.cshtml";
+}
+<style>
+    body {
+        background-color: #F1F0FF;
+    }
+</style>
+@foreach(var İlanlar in Model.AdsByUser)
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">İlan Fotoğrafı</th>
+            <th scope="col">İlan Türü</th>
+            <th scope="col">İlan Açıklaması</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Sil</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+
+            <td><img  src="@İlanlar.PetPhoto"  style="width: 100px; height: 100px;"/></td>
+            <td>@İlanlar.Category.CategoryName</td>
+            <td>@İlanlar.AdText</td>
+            <td><a class="btn btn-success"href="/Ilan/Update?AdsId=@İlanlar.Id">Güncelle</a></td>
+            <td><a class="btn btn-danger" href="/Ilan/Delete?AdsId=@İlanlar.Id">Sil</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+}

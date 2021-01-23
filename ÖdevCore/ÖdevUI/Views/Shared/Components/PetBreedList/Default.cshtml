@@ -1,0 +1,97 @@
+﻿@model BitirmeProjesiUI.ViewComponenet.PetBreedListViewModel
+
+
+
+<head>
+    <style>
+        body {
+            background-color: #fff;
+            font-size: 14px;
+        }
+
+        .animatedbounceInDown {
+            position: relative;
+            margin: 0px;
+            width: 200px;
+        }
+
+            .animatedbounceInDown ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+                .animatedbounceInDown ul li a {
+                    display: block;
+                    background: #ebebeb;
+                    padding: 10px 15px;
+                    color: #333;
+                    text-decoration: none;
+                    -webkit-transition: 0.2s linear;
+                    -moz-transition: 0.2s linear;
+                    -o-transition: 0.2s linear;
+                    transition: 0.2s linear;
+                }
+
+                    .animatedbounceInDown ul li a:hover {
+                        background: #f8f8f8;
+                        color: #515151;
+                    }
+
+                    .animatedbounceInDown ul li a .fa {
+                        width: 16px;
+                        text-align: center;
+                        margin-right: 5px;
+                        float: right;
+                    }
+
+                .animatedbounceInDown ul ul {
+                    background-color: #ebebeb;
+                }
+
+                .animatedbounceInDown ul li ul li a {
+                    background: #f8f8f8;
+                    border-left: 4px solid transparent;
+                    padding: 10px 20px;
+                }
+
+                    .animatedbounceInDown ul li ul li a:hover {
+                        background: #ebebeb;
+                        border-left: 4px solid #3498db;
+                    }
+    </style>
+
+
+
+</head>
+
+
+@foreach(var petTypes in Model.petTypes){
+
+@foreach (var petBreeds in Model.PetBreeds)
+{
+
+    @foreach(var categories in Model.Categories){
+
+       
+    <nav class='animatedbounceInDown'>
+        <ul>
+            <li class='sub-menu'>
+                <a href="/Ilan/Ilanlar?category=@categories.Id&petBreed=@petBreeds.Id&petTypes=@petTypes.Id">@petBreeds.Breed<div class='fa fa-caret-down right'></div></a>
+                @*<ul>
+                        @foreach (var Types in Model.PetTypes)
+                        {
+                            <li><a href="/Ilan/Ilanlar?category=@kategoriler.Id">@Types.Type  </a></li>
+
+                        }
+
+
+                    </ul>*@
+            </li>
+
+        </ul>
+    </nav>
+
+}
+}}
+

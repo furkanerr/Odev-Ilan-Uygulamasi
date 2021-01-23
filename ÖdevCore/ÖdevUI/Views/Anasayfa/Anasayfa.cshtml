@@ -1,0 +1,62 @@
+﻿@model BitirmeProjesiUI.Models.AdsListViewModel
+
+@{
+    ViewData["Title"] = "Anasayfa";
+    Layout = "~/Views/Shared/_AnasayfaLayout1.cshtml";
+}
+<style>
+    body {
+        background-color: #F1F0FF;
+    }
+</style>
+<div>
+    <div><h5> Köpek Vitrini  </h5></div>
+    <div class="row">
+
+
+
+        @foreach (var ilanlar in Model.IlanlarVeKategoriler)
+        {
+            @if (ilanlar.PetTypeId == 1)
+            {
+                <div class="card col-3 mt-5" style="width: 18rem;">
+                    <img class="card-img-top" src="@ilanlar.PetPhoto" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"> @ilanlar.PetBreed.Breed</h4>
+                        <h5 class="card-title">@ilanlar.Category.CategoryName</h5>
+                        <p class="card-text">@ilanlar.AdText</p>
+                        <a href="/Ilan/IlanDetay?Id=@ilanlar.Id" class="btn btn-primary">İlana Git</a>
+                    </div>
+                </div>
+            }
+
+
+        }
+    </div>
+    <div>
+    </div>
+
+    <div class="mt-3"><h5>Kedi Vitrini </h5></div>
+    <div class="row">
+
+
+        @foreach (var ilanlar in Model.IlanlarVeKategoriler)
+        {
+            @if (ilanlar.PetTypeId == 2)
+            {
+                <div class="card col-3 mt-5" style="width: 18rem;">
+                    <img class="card-img-top" src="@ilanlar.PetPhoto" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"> @ilanlar.PetBreed.Breed</h4>
+                        <h5 class="card-title">@ilanlar.Category.CategoryName</h5>
+                        <p class="card-text">@ilanlar.AdText</p>
+                        <a href="/Ilan/IlanDetay?Id=@ilanlar.Id" class="btn btn-primary">İlana Git</a>
+                    </div>
+                </div>
+            }
+
+
+        }
+    </div>
+</div>
+ 

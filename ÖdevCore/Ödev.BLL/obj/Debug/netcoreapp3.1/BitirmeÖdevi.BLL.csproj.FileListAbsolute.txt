@@ -1,0 +1,16 @@
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.deps.json
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Entities.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Entities.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.BLL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.BLL.csproj.CopyComplete

@@ -1,0 +1,50 @@
+﻿
+@using Microsoft.AspNetCore.Http
+
+@model AdsListViewModel
+@{
+    Layout=null;
+}
+
+@{
+    var userId = Context.Session.GetInt32("ıd");
+    var comment = Model.Comment;
+ 
+   
+}
+<form asp-controller="Ilan" asp-action="YorumYap" method="post" class="mt-5" >
+   
+    @foreach(var ilanBilgisi in Model.AdsDetails){
+    <div class="form-group" style=" visibility: hidden;">
+        <label asp-for="@comment.AdsId"></label>
+        <input asp-for="@comment.AdsId" class="form-control" value="@ilanBilgisi.Id" type="hidden"/>
+        <span asp-validation-for="@comment.AdsId"></span>
+    </div>
+
+    <div class="form-group " >
+        <label asp-for="@comment.UserId" ></label>
+        <input asp-for="@comment.UserId" class="form-control" value="@userId" type="hidden"/>
+        <span asp-validation-for="@comment.UserId"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@comment.Comments"></label>
+        <textarea asp-for="@comment.Comments" class="form-control" placeholder="Yorum"></textarea>
+        <span asp-validation-for="@comment.Comments"></span>
+    </div>
+    
+    
+
+        <input  type="submit" value="YorumYap" class="btn btn-success"/>
+
+    }
+</form>
+@*@{
+   var UserId = Context.Session.GetInt32("ıd");
+}
+    @ViewBag.AdsId
+    <input type="text" value="@ViewBag.AdsId" name="AdsId" />
+    <input type="text" value="@UserId" name="UserId" />
+    <textarea type="text" placeholder="Yorum yap" name="Comments"></textarea>
+    <input type="submit" value="Gönder" />
+*@

@@ -1,0 +1,17 @@
+﻿
+
+@{
+    Layout = "~/Views/Shared/_AnasayfaLayout1.cshtml";
+}
+<form asp-controller="Account" asp-action="SendCodeToUserMail" method="post">
+    
+    <div class="container mt-4">
+
+        <div class="form-group pl-5 pr-5">
+            <label >E-Posta</label>
+            <input  type="email" name="Mail" placeholder="E-posta" />
+        </div>
+    </div>
+        <button  value="SendCodeToUserMail " style="margin-left: 150px;" class="btn-success">Kod Gönder</button>
+
+</form>

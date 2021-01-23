@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.deps.json
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Entities.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Entities.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.Core.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.dll
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.pdb
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.runtimeconfig.json
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\bin\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\BitirmeProjesiCore\BitirmeÖdevi.DAL\obj\Debug\netcoreapp3.1\BitirmeÖdevi.DAL.genruntimeconfig.cache

@@ -1,0 +1,44 @@
+﻿@model BitirmeProjesiUI.Models.AdsListViewModel
+
+
+
+
+
+
+
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_IlanlarLayout1.cshtml";
+}
+<style>
+    body {
+        background-color: #F1F0FF;
+    }
+</style>
+
+
+    <div class="row">
+    
+        @foreach (var ilanlar in Model.IlanlarKategorilerVePetTipleri)
+        {
+            <div class="card col-3 ml-3" style="width: 18rem;">
+                <img class="card-img-top" src="@ilanlar.PetPhoto" alt="Card image cap">
+
+                <div class="card-body">
+                    <h4 class="card-title"> @ilanlar.PetName</h4>
+                    <h5 class="card-title">@ilanlar.Category.CategoryName</h5>
+                    <p class="card-text">
+                        @ilanlar.AdText
+
+                    </p>
+                    <a href="/Ilan/IlanDetay?Id=@ilanlar.Id" class="btn btn-primary">İlana git</a>
+                </div>
+            </div>
+
+        }
+
+    </div>
+
+
+
